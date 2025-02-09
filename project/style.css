@@ -1,0 +1,34 @@
+.bg-back{
+    background-color: #005aa9;
+}
+
+.search{
+    box-shadow: 0 1px 1px 0 transparent
+}
+
+.f{
+    font-family: "Crisp Aeonik Pro Bold, sans-serif;"
+}
+
+.btn {
+    background: linear-gradient(180deg, #ffffff29, #fff0), #030d26;
+    border: 2px solid #030d26;
+    font-weight: 500;
+}
+
+.backgroundOImage{
+    background:  linear-gradient(180deg, #ffffffc4 0, #fff0);
+}
+
+.back{
+    background:  linear-gradient(180deg, #ffffffc4 0, #fff0);
+}
+
+
+.foge{
+    background: linear-gradient(90deg, rgba(254,254,254,0.7036064425770308) 0%, rgba(255,255,255,1) 35%, rgba(255,255,255,1) 100%);
+}
+
+.videoBtn{
+    backdrop-filter: blur(10px);
+}
