@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#eaebed] p-4 font-[Poppins]">
+    <h1 class="text-2xl font-bold font-[Poppins] text-center py-6 text-white bg-[#FFB200] rounded-lg">Todo List</h1>
+    <div class="h-screen w-full   flex items-center jus p-4 flex-col">
+
+ <div class="w-full flex justify-center mt-10 gap-10 ">
+  <input type="text" class="h-10 w-1/4 border outline-none  rounded-lg border-[#B4B5B5] px-2" id="input">
+
+  <button class="h-10 px-10 py-2 bg-[#FFB200] shadow-xl rounded-lg text-white font-[Poppins] cursor-pointer" id="addBtn"> Add </button>
+  <button class="h-10 px-10 py-2 bg-[#FFB200] shadow-xl rounded-lg text-white font-[Poppins] cursor-pointer " id="deleteAll"> Delet All </button>
+ </div>
+ <ul class="w-full flex justify-center items-center flex-col mt-20 gap-4  " id="todoList">
+  
+ </ul>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>

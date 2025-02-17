@@ -1,18 +1,7 @@
-class person{
-    name;
-    age;
-    class;
-    dob;
+class post {
+  constructor(url, title, discripsion) {
+    (this.url = url), (this.title = title), (this.discripsion = discripsion);
+  }
 }
-
-
-
-const pi = new person();
-
-pi.name = "aditya"
-pi.class = "bsc 3"
-pi.dob = "27-01-2004"
-pi.age = "22"
-
 
 
