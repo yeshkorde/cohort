@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div class="h-screen w-full bg-[#fff] flex justify-center items-center">
+      <div
+        class="h-[80%] w-[30%] bg-white rounded-xl shadow-[2px_2px_80px] shadow-[#e0e0e0] p-12 flex flex-col"
+      >
+        <div class="mb-12">
+          <h1 class="text-3xl font-bold text-gray-800 mb-2">Welcome</h1>
+          <p class="text-gray-500">Please sign up to continue</p>
+        </div>
+
+        <form class="flex flex-col flex-grow">
+
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-semibold mb-2"
+                  >UserName</label
+                >
+                <input
+                  type="email"
+                  class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
+                  placeholder="Enter your userNamre"
+                />
+              </div>
+
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-semibold mb-2"
+              >Email</label
+            >
+            <input
+              type="email"
+              class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="mb-6">
+            <label class="block text-gray-700 text-sm font-semibold mb-2"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500 transition-colors"
+              placeholder="Enter your password"
+            />
+          </div>
+
+          <button
+            type="submit"
+            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors mb-8"
+          >
+            Sign up
+          </button>
+
+          
+        </form>
+
+        <div class="text-center ">
+          <span class="text-gray-600">If you have an account? </span>
+          <a
+            href="./login.html"
+            class="text-blue-600 hover:text-blue-800 font-semibold"
+            >Sign in</a 
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="../app.js"></script>
+</html>

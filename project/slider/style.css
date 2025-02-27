@@ -1,0 +1,11 @@
+
+
+
+
+.boxShadow{
+    box-shadow: 20px 20px 300px #e0e0e0;
+}
+
+.d{
+    transform: translateX(-200%);
+}
