@@ -25,7 +25,7 @@ function renderCart() {
     cart_items.appendChild(div);
   });
   addTotal(); 
-//   setIsEmpty();
+
 }
 
 function addToCart(name, price, img) {
@@ -71,13 +71,5 @@ function addTotal() {
   text.innerText = `Total: $${data}`;
 }
 
-// function setIsEmpty() {
-//     if (cart.length !== 0) {
-//       empty_cart.style.color = "red";
-//       console.log(cart);
-//     } else {
-//       empty_cart.style.color = "green";
-//       console.log(cart);
-//     }
-//   }
+
   
