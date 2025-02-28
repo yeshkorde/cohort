@@ -15,7 +15,12 @@ const images = [
     url: "https://plus.unsplash.com/premium_photo-1680466057202-4aa3c6329758?q=80&w=2138&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     caption: "Urban City Skyline",
   },
+  {
+    url:"https://www.thewowstyle.com/wp-content/uploads/2015/01/nature-images..jpg",
+    caption:"nature"
+  }
 ];
+
 
 const carouselTrack = document.getElementById("carouselTrack");
 const captionElement = document.getElementById("caption");
@@ -29,6 +34,8 @@ let isAutoPlayOn = false
 let autoPlay = null
 let transformValue = 0;
 let i = 0;
+
+
 
 function changeTransform(ind) {
   carouselTrack.style.transform = `translateX(-${ind * 100}%)`;
